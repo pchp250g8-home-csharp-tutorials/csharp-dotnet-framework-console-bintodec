@@ -33,7 +33,7 @@ namespace BinToDec
                 nDecNum += (nBinDight * nBinPower);
                 nBinPower *= 2;
             }
-            Console.WriteLine("The decenary equivalent of the binary number {0} is {1}", strLine, nDecNum);
+            Console.WriteLine("The decimal equivalent of the binary number {0} is {1}", strLine, nDecNum);
             Console.Read();
         }
     }
