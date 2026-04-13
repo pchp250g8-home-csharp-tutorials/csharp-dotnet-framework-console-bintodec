@@ -14,7 +14,7 @@ namespace BinToDec
             const uint MAX_INT = uint.MaxValue;
             var nDecNum = 0;
             var nBinPower = 1;
-            var nMaxBinaryLen = Math.Truncate(Math.Log(MAX_INT, 2));
+            var nMaxBinaryLen = Math.Ceiling(Math.Log(MAX_INT, 2));
             var oRegEx = new Regex("^[0-1]+$");
             Console.WriteLine("Input a binary number");
             var strLine = Console.ReadLine();
